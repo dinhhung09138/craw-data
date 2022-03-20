@@ -10,8 +10,12 @@ namespace CrawlCafefData
             Console.WriteLine("Hello World!");
 
             StockCafef cafef = new StockCafef();
+            //cafef.Process();
 
-            cafef.Process();
+            StockVietStock vietStockIndustry = new StockVietStock();
+
+            vietStockIndustry.Process();
+
         }
     }
 }
