@@ -1,10 +1,12 @@
 
-CrawlCafefData/AdapterRegex/bin/
-CrawlCafefData/AdapterRegex/obj/
-CrawlCafefData/.vs/
-CrawlCafefData/CrawlCafefData/bin/
-CrawlCafefData/CrawlCafefData/obj/
-CrawlCafefData/Stock.Database/bin/
-CrawlCafefData/Stock.Database/obj/
-CrawlCafefData/Stock.Domain/bin/
-CrawlCafefData/Stock.Domain/obj/
+SIM/AdapterRegex/bin/
+SIM/AdapterRegex/obj/
+SIM/.vs/
+SIM/CrawlCafefData/bin/
+SIM/CrawlCafefData/obj/
+SIM/SIM.Database/bin/
+SIM/SIM.Database/obj/
+SIM/SIM.Domain/bin/
+SIM/SIM.Domain/obj/
+SIM/SIM.Crawl/bin/
+SIM/SIM.Crawl/obj/
