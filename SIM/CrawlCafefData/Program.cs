@@ -1,5 +1,6 @@
 ﻿using System;
 using AdapterRegex;
+using SIM.Crawl.VietStock;
 
 namespace CrawlCafefData
 {
@@ -14,8 +15,10 @@ namespace CrawlCafefData
 
             StockVietStock vietStockIndustry = new StockVietStock();
 
-            vietStockIndustry.Process();
+            //vietStockIndustry.Process();
 
+            CrawlBySector sector1 = new CrawlBySector();
+            sector1.Process().ConfigureAwait(true);
         }
     }
 }

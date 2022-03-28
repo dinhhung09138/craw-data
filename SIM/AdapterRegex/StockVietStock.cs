@@ -12,35 +12,6 @@ namespace AdapterRegex
 {
     public class StockVietStock
     {
-        private Dictionary<int, string> vietStockIndustry = new Dictionary<int, string>()
-        {
-            { 1, "Bán buôn" },
-            { 2, "Bảo hiểm" },
-            { 3, "Bất động sản" },
-            { 5, "Chứng khoán" },
-            { 6, "Công nghệ và thông tin" },
-            { 7, "Bán lẻ" },
-            { 8, "Chăm sóc sức khỏe" },
-            { 10, "Khai khoáng" },
-            { 11, "Ngân hàng" },
-            { 12, "Nông - Lâm - Ngư" },
-            { 15, "SX Thiết bị, máy móc" },
-            { 16, "SX Hàng gia dụng" },
-            { 17, "Sản phẩm cao su" },
-            { 18, "SX Nhựa - Hóa chất" },
-            { 19, "Thực phẩm - Đồ uống" },
-            { 20, "Chế biến Thủy sản" },
-            { 21, "Vật liệu xây dựng" },
-            { 22, "Tiện ích" },
-            { 23, "Vận tải - kho bãi" },
-            { 24, "Xây dựng" },
-            { 25, "Dịch vụ lưu trú, ăn uống, giải trí" },
-            { 26, "SX Phụ trợ" },
-            { 27, "Thiết bị điện" },
-            { 28, "Dịch vụ tư vấn, hỗ trợ" },
-            { 29, "Tài chính khác" },
-        };
-
         private Dictionary<int, string> vietStockTradingFloor = new Dictionary<int, string>()
         {
             {1, "HOSE" },
@@ -101,7 +72,7 @@ namespace AdapterRegex
                 };
                 HttpClient httpClient = new HttpClient(handler);
 
-                httpClient.DefaultRequestHeaders.TryAddWithoutValidation("User-Agent", "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) coc_coc_browser/63.4.154 Chrome/57.4.2987.154 Safari/537.36");
+                httpClient.DefaultRequestHeaders.TryAddWithoutValidation("User-Agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.82 Safari/537.36");
 
 
                 httpClient.BaseAddress = new Uri(url);
